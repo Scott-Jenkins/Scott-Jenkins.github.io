@@ -1,0 +1,169 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.child1 {
+  background-color: #3e6bff;
+  height: 65vh;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.child1 nav {
+  list-style: none;
+  text-decoration: none;
+  color: #eeeeee;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.child1 nav li {
+  display: inline;
+  padding-right: 30px;
+}
+
+.child1 img {
+  height: 60vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.child2 {
+  background-color: #eeeeee;
+  height: 100vh;
+  -webkit-box-shadow: 0px -5px 180px 0px #333;
+          box-shadow: 0px -5px 180px 0px #333;
+  color: #333;
+  z-index: 2;
+  position: absolute;
+  top: 65vh;
+  bottom: 0;
+}
+
+.child2 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.child2 .flex .section {
+  width: 50%;
+  padding: 60px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.child2 .flex .section button {
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  border-color: #3e6bff;
+  border-width: 5px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  background-color: #3e6bff;
+  color: #eeeeee;
+  cursor: pointer;
+  border: none;
+}
+
+.child2 .Pricing {
+  padding: 60px;
+}
+
+.child2 .Pricing h1 {
+  color: #3e6bff;
+  padding-bottom: 30px;
+}
+
+.child2 .Pricing table {
+  width: 100%;
+  text-align: center;
+  color: #eeeeee;
+  background-color: #dfdddd;
+  border-radius: 20px;
+}
+
+.child2 .Pricing table th {
+  color: #3e6bff;
+  height: 60px;
+  font-size: 20px;
+  width: 33%;
+}
+
+.child2 .Pricing table td {
+  height: 80px;
+  color: #333;
+}
+
+.child2 .para {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.child2 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  color: #eeeeee;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  .child1 nav {
+    font-size: 18px;
+  }
+  .child2 {
+    min-height: 150vh;
+  }
+  .child2 .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .child2 .flex .section {
+    width: 100%;
+  }
+  .child2 .Pricing table th {
+    font-size: 17px;
+  }
+  .child2 footer {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
