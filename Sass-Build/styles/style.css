@@ -44,6 +44,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 .child2 {
@@ -134,10 +135,16 @@
   left: 0;
   background-color: #333;
   color: #eeeeee;
-  height: 100px;
+  min-height: 100px;
   width: 100%;
   text-align: center;
   padding: 25px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .child2 {
+    min-height: 120vh;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -145,7 +152,7 @@
     font-size: 18px;
   }
   .child2 {
-    min-height: 150vh;
+    min-height: 200vh;
   }
   .child2 .flex {
     display: -webkit-box;
@@ -160,10 +167,16 @@
     width: 100%;
   }
   .child2 .Pricing table th {
-    font-size: 17px;
+    font-size: 12px;
   }
   .child2 footer {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .child1 nav li {
+    padding-right: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
