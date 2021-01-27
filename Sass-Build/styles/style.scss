@@ -37,10 +37,12 @@ $Text-Color: #333;
   }
 
   img {
-    height: 60vh;
+    width: 60%;
+    max-width: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
     overflow: hidden;
   }
 }
@@ -171,6 +173,15 @@ $Text-Color: #333;
     nav {
       li {
         padding-right: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .child2 {
+    .flex {
+      .section {
+        font-size: 14px;
       }
     }
   }

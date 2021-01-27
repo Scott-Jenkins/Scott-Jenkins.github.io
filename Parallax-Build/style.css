@@ -208,9 +208,15 @@ a:link,
   }
   .img2 .grid-item,
   .img1 .grid-item {
-    margin: 30px;
-    padding: 20px;
+    margin: 20px;
+    padding: 10px;
   }
+
+  .img1 .grid-item p,
+  .img2 .grid-item p {
+    font-size: 12px;
+  }
+
   .bar,
   .grid-item p {
     font-size: 14px;

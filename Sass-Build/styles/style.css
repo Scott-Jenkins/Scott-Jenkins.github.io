@@ -40,10 +40,12 @@
 }
 
 .child1 img {
-  height: 60vh;
+  width: 60%;
+  max-width: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 50px;
   overflow: hidden;
 }
 
@@ -177,6 +179,10 @@
 @media only screen and (max-width: 450px) {
   .child1 nav li {
     padding-right: 10px;
+    font-size: 14px;
+  }
+  .child2 .flex .section {
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=style.css.map */
