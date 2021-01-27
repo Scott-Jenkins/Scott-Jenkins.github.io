@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="form">
+            <nav>
+                <p hidden class="hintMSG">The Username and Password are "Username" & "Password"</p>
+                <p class="hint"><i class="fa fa-question"></i></p>
+            </nav>
+            <div class="bubble">
+                <h1>Log In</h1>
+                <input type="text" name="" id="Username" placeholder=" Username">
+                <input type="password" name="" id="Password" placeholder=" Password">
+                <p class="errorMSG"></p>
+                <button onclick="checkLogin()">Enter</button>
+            </div>
+            <div class="info">
+                <p>This project shows me getting comfortable creating my own JavaScript algorithms while also showing my knowledge of validation and JQuery snippets.</p>
+            </div>
+        </div>
+
+        <script src="js/app.js" async defer></script>
+    </body>
+</html>

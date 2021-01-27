@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form {
+  height: 100vh;
+  width: 100%;
+  background-color: #333;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/BG.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form nav {
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.form nav .hintMSG {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  text-align: right;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form nav .hint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #3b3b3bd0;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.form nav .hint:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.form .bubble {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  background-color: #3b3b3bd0;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.form .bubble h1 {
+  color: #fff;
+  font-weight: lighter;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  top: 20px;
+}
+
+.form .bubble #Username,
+.form .bubble #Password {
+  width: 75%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 20px;
+  font-size: 18px;
+  background: none;
+  border: none;
+  border-bottom: solid 2px #0084ff;
+  color: #fff;
+}
+
+.form .bubble #Username:focus,
+.form .bubble #Password:focus {
+  outline: none;
+  border-color: #90c9ff;
+}
+
+.form .bubble button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 0px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.form .bubble button:focus {
+  outline: none;
+}
+
+.form .bubble button:hover {
+  color: #65ff93;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.form .info {
+  width: 350px;
+  position: absolute;
+  bottom: 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  padding-bottom: 80px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
